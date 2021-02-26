@@ -1,0 +1,27 @@
+body {
+    font-family: Sans-Serif;
+    background: #673ae2;
+}
+::placeholder {
+    color: #fff;
+}
+#container {
+    display: flex;
+    height: 30px;
+}
+#email {
+    border-radius: 0;
+    /* border: 1px solid rgb(0, 110, 110); */
+    background-color: hsla(0,0%,100%,.1);
+    outline: none;
+    color: #fff;
+    border: none;
+    padding: 1em 1.5em;
+}
+
+#label {
+    background-color: #de881e;
+    color: whitesmoke;
+    padding: 1em 1.5em;
+    padding-top: 7px;
+}
